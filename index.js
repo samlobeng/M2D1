@@ -131,7 +131,7 @@ function typesOfAngle(angle) {
     return "Straight angle.";
   }
 }
-console.log(typesOfAngle(90));
+// console.log(typesOfAngle(90));
 // Types of angles:
 //     Acute angle: An angle between 0 and 90 degrees.
 //     Right angle: An 90 degree angle.
@@ -140,8 +140,14 @@ console.log(typesOfAngle(90));
 
 // 13)
 // Create a function to find the index of the greatest element of a given array of integers
+function greatestElement(arr) {
+    let i = arr.indexOf(Math.max(...arr));
+    return i
+}
 
-// 14)
+console.log(greatestElement([1,2,3])); 
+
+// 14)  
 // Create a function to get the largest even number from an array of integers.
 
 // 15)
